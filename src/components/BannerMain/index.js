@@ -2,7 +2,6 @@ import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
-//ExpReg -> Retorna ID do video para inserção da img no background
 function getYouTubeId(youtubeURL) {
   return youtubeURL
     .replace(
@@ -10,7 +9,6 @@ function getYouTubeId(youtubeURL) {
       '$7',
     );
 }
-//-----------------------------------------------------
 
 export default function BannerMain({
   videoTitle,
@@ -18,10 +16,7 @@ export default function BannerMain({
   url,
 }) {
   const youTubeID = getYouTubeId(url);
-
-//  Background com base no ID do video no Youtube
-//  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
-    const bgUrl = ``;
+  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>

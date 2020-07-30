@@ -14,6 +14,10 @@
           "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
         },
         {
+          "titulo": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
           "titulo": "Componentização com VanillaJS #AluraMais",
           "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
         },
@@ -24,6 +28,14 @@
         {
           "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
           "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
         },
         {
           "titulo": "Base para aprender os frameworks",
